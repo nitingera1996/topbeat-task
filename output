@@ -1,0 +1,361 @@
+{
+  "took" : 4,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 23291,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztuz",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.744Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "scsi_eh_1",
+          "pid" : 145,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztu1",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.745Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "ext4-rsv-conver",
+          "pid" : 165,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztu2",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.745Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "upstart-udev-bridge --daemon",
+          "cpu" : {
+            "user" : 2190,
+            "user_p" : 0,
+            "system" : 410,
+            "total" : 2600,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 20209664,
+            "rss" : 618496,
+            "rss_p" : 0,
+            "share" : 618496
+          },
+          "name" : "upstart-udev-br",
+          "pid" : 290,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztu6",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.746Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "kvm-irqfd-clean",
+          "pid" : 407,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztvB",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.753Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/sbin/ModemManager",
+          "cpu" : {
+            "user" : 170,
+            "user_p" : 0,
+            "system" : 30,
+            "total" : 200,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 338157568,
+            "rss" : 2633728,
+            "rss_p" : 0,
+            "share" : 2396160
+          },
+          "name" : "ModemManager",
+          "pid" : 819,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztvI",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.758Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/sbin/getty -8 38400 tty2",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 20492288,
+            "rss" : 778240,
+            "rss_p" : 0,
+            "share" : 774144
+          },
+          "name" : "getty",
+          "pid" : 925,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztvP",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.761Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/sbin/mysqld",
+          "cpu" : {
+            "user" : 17890,
+            "user_p" : 6.0E-4,
+            "system" : 15390,
+            "total" : 33280,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 504475648,
+            "rss" : 22724608,
+            "rss_p" : 0.01,
+            "share" : 1503232
+          },
+          "name" : "mysqld",
+          "pid" : 1038,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "mysql"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztvR",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:10.761Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "NetworkManager",
+          "cpu" : {
+            "user" : 4190,
+            "user_p" : 2.0E-4,
+            "system" : 560,
+            "total" : 4750,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 353439744,
+            "rss" : 5513216,
+            "rss_p" : 0,
+            "share" : 4313088
+          },
+          "name" : "NetworkManager",
+          "pid" : 1067,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztvU",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:11.741Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/sbin/wpa_supplicant -B -P /run/sendsigs.omit.d/wpasupplicant.pid -u -s -O /var/run/wpa_supplicant",
+          "cpu" : {
+            "user" : 40,
+            "user_p" : 0,
+            "system" : 1640,
+            "total" : 1680,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 31350784,
+            "rss" : 1675264,
+            "rss_p" : 0,
+            "share" : 1257472
+          },
+          "name" : "wpa_supplicant",
+          "pid" : 1153,
+          "ppid" : 1,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.17",
+      "_type" : "process",
+      "_id" : "AVQkpL555mA3LB4pztvW",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-17T14:34:11.744Z",
+        "beat" : {
+          "hostname" : "FireBolt",
+          "name" : "FireBolt"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/usr/sbin/apache2 -k start",
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "09:06"
+          },
+          "mem" : {
+            "size" : 287272960,
+            "rss" : 2498560,
+            "rss_p" : 0,
+            "share" : 274432
+          },
+          "name" : "apache2",
+          "pid" : 1178,
+          "ppid" : 1166,
+          "state" : "sleeping",
+          "username" : "www-data"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
